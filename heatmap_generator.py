@@ -6,9 +6,9 @@ import argparse
 parser = argparse.ArgumentParser()
 
 #Use assignment 3 argparse and change the two input files
-parser.add_argument('-p', '--phase', default='BME163_Input_Data_Assignment6.phase', type=str, action='store', help='input phase file')
-parser.add_argument('-c', '--expression', default='BME163_Input_Data_Assignment6.exp', type=str, action='store', help='input expression file')
-parser.add_argument('-o', '--output', default='Kothari_Yashesha_BME163_Assignment_Week6.png', type=str, action='store', help='output png file')
+parser.add_argument('-p', '--phase', default='peak_phases.phase', type=str, action='store', help='input phase file')
+parser.add_argument('-c', '--expression', default='FPKM_expression_data.exp', type=str, action='store', help='input expression file')
+parser.add_argument('-o', '--output', default='genes_CT_heatmap.png', type=str, action='store', help='output png file')
 
 args = parser.parse_args()
 
